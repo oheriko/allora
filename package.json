@@ -1,13 +1,14 @@
 {
   "name": "basic",
   "type": "module",
+  {
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode client && vite build --ssr",
-    "preview": "wrangler dev",
-    "deploy": "bun run build && wrangler deploy"
-  },
-  "private": true,
+    "build": "vite build",
+    "preview": "bun server.ts"
+  }
+}
+ "private": true,
   "dependencies": {
     "hono": "^4.9.9",
     "honox": "^0.1.49"
