@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode client && vite build",
+    "build": "vite build --mode client && vite build --ssr",
     "preview": "wrangler dev",
     "deploy": "bun run build && wrangler deploy"
   },
@@ -23,3 +23,4 @@
     "wrangler": "^4.4.0"
   }
 }
+
